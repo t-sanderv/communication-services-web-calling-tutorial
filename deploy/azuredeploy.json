@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.9.1.41621",
-      "templateHash": "17383447506197689106"
+      "templateHash": "4212825755897273326"
     }
   },
   "parameters": {
@@ -39,7 +39,7 @@
   },
   "variables": {
     "appServicePlanPortalName": "[format('AppServicePlan-{0}', parameters('appName'))]",
-    "packageUrl": "https://github.com/Azure-Samples/communication-services-web-calling-tutorial/releases/latest/download/calling-tutorial-build.zip",
+    "packageUrl": "https://raw.githubusercontent.com/t-sanderv/communication-services-web-calling-tutorial/without-server-demo/Project/dist/web.zip",
     "location": "[resourceGroup().location]"
   },
   "resources": [
